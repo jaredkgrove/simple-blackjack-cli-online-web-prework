@@ -34,6 +34,7 @@ def initial_round
   2.times do
     card_total = card_total + deal_card
   end
+  
 end
 
 def hit?
