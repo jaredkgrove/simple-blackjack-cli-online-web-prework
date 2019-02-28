@@ -60,8 +60,8 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  until hit? > 21 
+  card_total = initial_round
+  until hit?( > 21 
     display_card_total
   end
 end
