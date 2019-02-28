@@ -60,5 +60,10 @@ end
 def runner
   # code runner here
   welcome
+  initial_round
+  unitl 
+  until hit? > 21
+    display_card_total
+  end
 end
     
