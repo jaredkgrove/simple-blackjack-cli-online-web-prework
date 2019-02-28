@@ -40,8 +40,9 @@ end
 
 def hit?(card_total)
   # code hit? here
-  puts "Type 'h' to hit or 's' to stay"
-  gets.chomp
+  prompt_user
+  get_user_input
+  
 end
 
 def invalid_command
