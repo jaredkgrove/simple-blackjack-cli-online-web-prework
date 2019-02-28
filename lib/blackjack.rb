@@ -62,7 +62,7 @@ def runner
   welcome
   initial_round
   unitl 
-  until hit? > 21 do
+  until hit? > 21 
     display_card_total
   end
 end
